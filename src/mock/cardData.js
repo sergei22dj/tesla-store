@@ -10,6 +10,7 @@ export const cardData = [
     battery: "75 кВт/ч",
     mileage: "40600 км",
     year: "2016",
+    status: "a",
   },
   {
     id: "2",
@@ -22,6 +23,7 @@ export const cardData = [
     battery: "75 кВт/ч",
     mileage: "40600 км",
     year: "2016",
+    status: "c",
   },
   {
     id: "3",
@@ -34,6 +36,7 @@ export const cardData = [
     battery: "75 кВт/ч",
     mileage: "40600 км",
     year: "2016",
+    status: "b",
   },
   {
     id: "1",
@@ -46,6 +49,7 @@ export const cardData = [
     battery: "75 кВт/ч",
     mileage: "40600 км",
     year: "2016",
+    status: "a",
   },
   {
     id: "2",
@@ -58,6 +62,7 @@ export const cardData = [
     battery: "75 кВт/ч",
     mileage: "40600 км",
     year: "2016",
+    status: "a",
   },
   {
     id: "3",
@@ -70,5 +75,6 @@ export const cardData = [
     battery: "75 кВт/ч",
     mileage: "40600 км",
     year: "2016",
+    status: "c",
   },
 ];

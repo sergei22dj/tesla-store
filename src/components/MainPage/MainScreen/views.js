@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   height: 100%;
   background-image: url("images/TeslaS_Screen.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: right 65% bottom 45%;
   background-repeat: no-repeat;
   width: 100%;
   height: 960px;
@@ -24,11 +24,17 @@ export const Info = styled.div`
     height: 600px;
     padding: 0 40px;
   }
+  @media screen and (max-width: 320px) {
+    padding: 0 10px;
+  }
 `;
 export const NameWbtn = styled.div``;
 export const Name = styled.div`
   color: white;
   font-size: 12vw;
+  @media screen and (max-width: 600px) {
+    font-size: 56px;
+  }
 `;
 export const Button = styled.div`
   display: flex;
@@ -49,6 +55,7 @@ export const InfoBar = styled.div`
     display: flex;
     width: 100%;
     flex-direction: row;
+    column-gap: 30px;
     margin-top: 300px;
     align-items: flex-start;
   }
@@ -69,6 +76,9 @@ export const TitleWrapper = styled.div`
   margin-top: 70px;
   @media screen and (max-width: 1195px) {
     width: 130px;
+  }
+  @media screen and (max-width: 650px) {
+    text-align: center;
   }
 `;
 export const BTitle = styled.div`
@@ -92,6 +102,9 @@ export const FooterBar = styled.div`
   align-items: flex-end;
   padding: 0 100px;
   margin-bottom: 46px;
+  @media screen and (max-width: 550px) {
+    padding: 0 40px;
+  }
 `;
 export const IconsBar = styled.div`
   display: flex;

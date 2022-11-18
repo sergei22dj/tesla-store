@@ -60,6 +60,7 @@ export const Button = styled.div`
   margin: 45px auto 45px 38px;
   position: relative;
   z-index: 100;
+  cursor: pointer;
   @media screen and (max-width: 370px) {
     width: 130px;
     margin: 0 auto;

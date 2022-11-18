@@ -3,14 +3,8 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 486px;
   @media screen and (max-width: 550px) {
-    width: auto;
     flex-direction: column;
     align-items: start;
-  }
-`;
-export const Image = styled.img`
-  @media screen and (max-width: 550px) {
-    width: 280px;
   }
 `;
 export const Name = styled.div`

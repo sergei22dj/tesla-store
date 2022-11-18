@@ -59,12 +59,14 @@ export const ArrowB = styled.img`
   height: 45px;
   margin-top: 100px;
   margin: 32px;
+  cursor: pointer;
 `;
 export const Arrow = styled.img`
   width: 45px;
   height: 45px;
   margin-top: 100px;
   margin: 32px;
+  cursor: pointer;
   @media screen and (max-width: 690px) {
     display: none;
   }
