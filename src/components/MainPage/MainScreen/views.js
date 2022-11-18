@@ -89,11 +89,13 @@ export const STitle = styled.div`
 export const FooterBar = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   padding: 0 100px;
   margin-bottom: 46px;
 `;
 export const IconsBar = styled.div`
   display: flex;
+  column-gap: 20px;
 `;
 export const IconW = styled.div`
   display: flex;
@@ -105,4 +107,30 @@ export const IconW = styled.div`
   cursor: pointer;
 `;
 export const Icon = styled.img``;
-export const Slider = styled.div``;
+export const Slider = styled.div`
+  display: flex;
+  width: 352px;
+  height: 176px;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+export const ScrollWrapper = styled.div`
+  width: 2px;
+  background-color: #e2052d;
+`;
+export const Scroll = styled.div`
+  width: 2px;
+  background-color: white;
+  height: 33%;
+`;
+export const Image = styled.div`
+  width: 100%;
+  background-image: url("images/Car_Slider.jpg");
+  background-position: center;
+`;
+export const NavBar = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+export const NavButton = styled.img``;

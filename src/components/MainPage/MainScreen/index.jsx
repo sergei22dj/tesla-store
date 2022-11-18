@@ -8,10 +8,15 @@ import {
   Icon,
   IconsBar,
   IconW,
+  Image,
   Info,
   InfoBar,
   Name,
   NameWbtn,
+  NavBar,
+  NavButton,
+  Scroll,
+  ScrollWrapper,
   Slider,
   STitle,
   TitleWrapper,
@@ -49,7 +54,16 @@ const MainScreen = () => {
             <Icon src="images/Tg_Logo.svg" />
           </IconW>
         </IconsBar>
-        <Slider></Slider>
+        <Slider>
+          <ScrollWrapper>
+            <Scroll />
+          </ScrollWrapper>
+          <Image></Image>
+          <NavBar>
+            <NavButton src="images/Slider_ArrowF.jpg" />
+            <NavButton src="images/Slider_ArrowP.jpg" />
+          </NavBar>
+        </Slider>
       </FooterBar>
     </Wrapper>
   );

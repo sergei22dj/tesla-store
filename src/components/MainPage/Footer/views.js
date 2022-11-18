@@ -26,7 +26,7 @@ export const LogosBar = styled.div`
   display: flex;
   @media screen and (max-width: 550px) {
     flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 10px;
   }
 `;
 export const LogoW = styled.div`
@@ -38,5 +38,9 @@ export const LogoW = styled.div`
   background-color: #e20531;
   margin-right: 20px;
   cursor: pointer;
+  @media screen and (max-width: 550px) {
+    width: 35px;
+    height: 35px;
+  }
 `;
 export const LogoS = styled.img``;
